@@ -1,0 +1,112 @@
+/* Cards */
+.card {
+	/* display: inline-block; */
+	width: 10rem;
+	/* margin-bottom: 5px; */
+	/* margin-right: 4px; */
+	cursor: pointer;
+	vertical-align: top;
+}
+.card-body a {
+	color: white;
+	text-decoration: none;
+}
+.card .card-pin-icon {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	height: 12px;
+	cursor: pointer;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+}
+.card .card-pin-icon:hover {
+	transform: scaleY(1.2);
+}
+.card .card-remove-icon {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	height: 12px;
+	cursor: pointer;
+}
+.card .card-edit-icon {
+	position: absolute;
+	right: 25px;
+	top: 5px;
+	height: 12px;
+	cursor: pointer;
+}
+.card .card-title {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.card .card-text {
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-transform: capitalize;
+	font-size: 12px;
+	/* color: #999999; */
+	line-height: 15px;
+	-webkit-line-clamp: 2;
+}
+.card .card-img-overlay .card-text, 
+.card.bg-primary .card-text,
+.card.bg-success .card-text,
+.card.bg-warning .card-text,
+.card.bg-danger .card-text,
+.card.bg-info .card-text,
+.card.bg-secendary .card-text,
+.card.border-primary .card-text
+{
+	white-space: normal; 
+	overflow: hidden;
+	text-overflow: clip;
+	line-height: 16px;
+}
+.card .card-img-overlay .card-text {
+	white-space: normal; 
+	overflow: hidden;
+	text-overflow: clip;
+	line-height: 15px;
+}
+.card-img-top {
+	min-height: 50px;
+	max-height: 200px;
+	height: auto;
+}
+
+.card-img {
+	min-height: 50px;
+	max-height: 200px;
+	height: auto;
+}
+
+.card .card-img-overlay .card-text {
+	color: white;
+}
+
+.card .card-body .action-button, .card .card-img-overlay .action-button {
+	height: 30px;
+	width: 52px;
+	font-size: 12px;
+	line-height: 14px;
+}
+.card .card-body button, .card .card-img-overlay button {
+	height: 20px;
+	width: 20px;
+	border: 0px transparent;
+	outline: 0px;
+	font-size: 12px;
+	background: transparent;
+	cursor: pointer;
+	vertical-align: middle;
+	line-height: 10px;
+	margin-left: 2px;
+	text-align: center;
+}
+.card .card-body button:hover, .card .card-img-overlay button:hover {
+	background-color: #f3efef;
+}

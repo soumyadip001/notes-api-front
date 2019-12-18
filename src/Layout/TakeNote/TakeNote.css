@@ -1,0 +1,26 @@
+/* Take A Note */
+.take-a-note {
+	width: 60%;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+.take-a-note input {
+	height: 35px;
+	border: 0px;
+	outline: 0px;
+}
+.take-a-note input:focus {
+	outline: none;
+	border: 0px;
+	box-shadow: none;
+}
+.take-a-note .input-group-append span.input-group-text {
+	border: 0px; outline: 0px;
+	background-color: transparent;
+	cursor: pointer;
+	margin-right: 5px;
+}

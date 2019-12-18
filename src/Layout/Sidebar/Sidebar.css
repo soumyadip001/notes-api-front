@@ -1,0 +1,30 @@
+/* leftbar */
+.leftbar-menus {
+	background-color: transparent;
+	border: 0px;
+	outline: 0px;
+	margin-top: 2px;
+}
+.leftbar-menus a {
+	margin-top: 5px;
+	font-size: 16px;
+	color: #444;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.leftbar-menus a img {
+	margin-right: 25px;
+}
+.leftbar-menus a:hover, .leftbar-menus a.active {
+	background-color: #fbe2bc;
+	width: 90%;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.leftbar-menus span.text-muted {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}

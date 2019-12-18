@@ -1,0 +1,45 @@
+/* navbar */
+
+.navbar .navbar-menu-icon {
+	color: grey;
+}
+
+.navbar .navbar-brand-logo {
+	color: grey ;
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+.navbar-search-section {
+	width:100%;
+}
+.navbar-search-section .input-group {
+	margin-left: 10%; 
+	width: 80%;
+	border-radius: 10px;
+	background-color: rgb(241, 241, 241);
+	padding: 2px;
+}
+.navbar-search-section .input-group input {
+	background-color: transparent;
+	border: 0px;
+	outline: none;
+}
+.navbar-search-section .input-group input.form-control:focus, 
+.navbar-search-section .input-group input.form-control:hover {
+	outline: none;
+	border: 0px transparent;
+	box-shadow: none;
+}
+.navbar-search-section .input-group .input-group-prepend {
+	background-color: transparent;
+}
+.navbar-search-section .input-group .input-group-prepend span {
+	background-color: transparent;
+	border: 0px;
+	height: 40px;
+}
+
+.navbar-options ul.navbar-nav li{
+	margin-right: 10px;
+}

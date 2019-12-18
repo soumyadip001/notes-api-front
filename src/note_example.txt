@@ -1,0 +1,69 @@
+{
+    id: "1",
+    type: "simple",
+    bgColor: "primary",
+    caption: "Big Ben",
+    title: "Big Ben",
+    content: "Big Ben is the nickname for the Great Bell of the striking clock at the north end of the Palace of Westminster in London"
+},
+{
+    id: "2",
+    type: "simple",
+    bgColor: "info",
+    caption: "Big Ben",
+    title: "Big Ben",
+    content: "Big Ben is the nickname for the Great Bell of the striking clock at the north end of the Palace of Westminster in London"
+},
+{
+    id: "3",
+    type: "simple",
+    bgColor: "primary",
+    caption: "Big Ben",
+    title: "Big Ben",
+    content: "Big Ben is the nickname for the Great Bell of the striking clock at the north end of the Palace of Westminster in London"
+},
+{
+    id: "5",
+    type: "simple",
+    bgColor: "primary",
+    caption: "Big Ben",
+    title: "Big Ben",
+    content: "Big Ben is the nickname for the Great Bell of the striking clock at the north end of the Palace of Westminster in London"
+},
+{
+    id: "6",
+    type: "simple",
+    bgColor: "success",
+    caption: "Big Ben",
+    title: "Big Ben",
+    content: "Big Ben is the nickname for the Great Bell of the striking clock at the north end of the Palace of Westminster in London"
+},
+{
+    id: "8",
+    type: "simple",
+    bgColor: "warning",
+    caption: "Big Ben",
+    title: "Big Ben",
+    content: "This is a really really long dummy text withuot any meaning or what-so-ever"
+},
+{
+    id: "9",
+    type: "simple",
+    bgColor: "danger",
+    caption: "Big Ben",
+    title: "Big Ben",
+    content: "Big Ben is the nickname for the Palace of Westminster in London"
+}
+
+
+
+let allNotes[] = response.data.map((noteIndex)=> {
+                        return {
+                            id: response.data[noteIndex]._id,
+                            coverImg: response.data[noteIndex].cover,
+                            title: response.data[noteIndex].title,
+                            caption: response.data[noteIndex].title,
+                            content: response.data[noteIndex].description,
+                            bgColor: "primary"
+                        }
+                    })
