@@ -18,7 +18,7 @@ const header = (props) => {
                 <a className="navbar-brand" href="/#">Dashboard</a>
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Logout />
+                        <Logout {...props} />
                     </li>
                 </ul>
             </div>

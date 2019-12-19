@@ -13,7 +13,7 @@ import Note from "../Components/Note/Note"
 const layout = (props) => {
     return (
         <Aux>
-            <Header />
+            <Header {...props} />
             <Row>
                 <Col className="2">
                     {/* <Sidebar /> */}
