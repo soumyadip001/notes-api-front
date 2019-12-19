@@ -12,7 +12,17 @@ const simpleCard = (props) => {
     const editUrl = "/edit-post/" + props.postId
 
     if (typeof props.bgColor === "undefined") {
-        compiledClass = "card bg-primary"
+        let rand = Math.floor(Math.random() * Math.floor(4))
+        if (rand === 0) {
+            compiledClass = "card bg-primary"
+        } else if (rand === 1) {
+            compiledClass = "card bg-warning"
+        } else if (rand === 2) {
+            compiledClass = "card bg-success"
+        } else {
+            compiledClass = "card bg-danger"
+        }
+        
     } else {
         compiledClass = "card bg-" + props.bgColor
     }
@@ -22,7 +32,7 @@ const simpleCard = (props) => {
     return (
         <div className={compiledClass} key={props.postId}>
             
-            <a onClick={props.remove}>
+            <a onClick={props.remove} href="/#">
                 <Image className="card-remove-icon" src="/open-iconic/svg/trash.svg" alt="Edit Note" />
             </a>
             

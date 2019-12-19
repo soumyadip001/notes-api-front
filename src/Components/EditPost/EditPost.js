@@ -76,7 +76,7 @@ class EditPost extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-6 offset-md-3">
-                        <form style={{marginTop: "20px"}, {padding: "10px"}}>
+                        <form style={{marginTop: "20px", padding: "10px"}}>
                             <div className="display-4 text-uppercase text-center mb-4">Create Post</div>
 
                             <div className="form-group">

@@ -30,7 +30,7 @@ class Logout extends Component {
 
     render() {
         return (
-            <a className="nav-link" onClick={this.logout}>
+            <a className="nav-link" onClick={this.logout} href="/#">
                 <Image src="/open-iconic/svg/power-standby.svg" height="15" alt="logout" />
             </a>
         )

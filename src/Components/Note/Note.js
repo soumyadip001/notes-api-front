@@ -60,7 +60,6 @@ class Note extends Component {
                     content={post.description}
                     postId={post._id}
                     key={post._id}
-                    bgColor="primary"
                     remove={() => this.removePost(post._id)} />
             )
         })
