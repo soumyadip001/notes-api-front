@@ -9,13 +9,12 @@ const simpleCard = (props) => {
 
     let compiledClass = ""
     const dTextColor = "text-white"
-    const dBgColor = "bg-primary"
     const editUrl = "/edit-post/" + props.postId
 
     if (typeof props.bgColor === "undefined") {
-        compiledClass = "card " + dBgColor
+        compiledClass = "card bg-primary"
     } else {
-        compiledClass = "card " + "bg-" + props.bgColor
+        compiledClass = "card bg-" + props.bgColor
     }
 
     compiledClass += " " + dTextColor

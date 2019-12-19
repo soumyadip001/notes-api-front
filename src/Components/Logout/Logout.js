@@ -18,15 +18,13 @@ class Logout extends Component {
                     localStorage.removeItem('user_token')
                     localStorage.removeItem('user_name')
                     localStorage.removeItem('user_email')
-                    // this.props.history.push('/login')
-                    window.location.href = "/"
+                    this.props.history.push('/login')
                 })
                 .catch((error) => {
                     console.log(error);
                 });
         } else {
-            // this.props.history.push('/login')
-            window.location.href = "/login"
+            this.props.history.push('/login')
         }
     }
 

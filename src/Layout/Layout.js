@@ -2,8 +2,6 @@ import React from "react"
 
 import Aux from "../HOC/Wrapper"
 import Header from "./Header/Header2"
-// import Sidebar from "./Sidebar/Sidebar"
-// import TakeNote from "./TakeNote/TakeNote"
 import AddNote from "./AddNote/AddNote"
 import CardsContainer from "./CardsContainer/CardsContainer"
 
@@ -25,7 +23,7 @@ const layout = (props) => {
                     <AddNote />
 
                     <CardsContainer>
-                        <Note />
+                        <Note {...props} />
                     </CardsContainer>
                 </Col>
             </Row>

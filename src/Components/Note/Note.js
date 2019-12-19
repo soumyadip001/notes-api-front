@@ -25,8 +25,7 @@ class Note extends Component {
                     console.log(error);
                 });
         } else {
-            // this.props.history.push('/login')
-            window.location.href = "/login"
+            this.props.history.push('/login')
         }
     }
 

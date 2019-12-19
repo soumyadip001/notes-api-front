@@ -3,6 +3,7 @@ import axios from "axios"
 
 import Aux from "../../HOC/Wrapper"
 import FormError from "../../Layout/formError/FormError"
+import {Link} from "react-router-dom";
 
 class Login extends Component {
 
@@ -135,7 +136,7 @@ class Login extends Component {
                                     type="submit"
                                     onClick={(event) => this.submitForm(event)}
                                     disabled={!this.state.formValid}>Login</button>
-                                <p className="text-monospace text-lowercase mt-1">If you do not have any account, regiter here</p>
+                                <span>If you do not have any account, </span><Link className="text-monospace text-lowercase mt-1" to="/register">click here to register</Link>
                             </form>
                         </div>
                     </div>

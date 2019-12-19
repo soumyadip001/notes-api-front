@@ -15,7 +15,7 @@ const header = (props) => {
 
         <Navbar>
             <div className="container">
-                <a className="navbar-brand" href="#">Dashboard</a>
+                <a className="navbar-brand" href="/#">Dashboard</a>
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Logout />
